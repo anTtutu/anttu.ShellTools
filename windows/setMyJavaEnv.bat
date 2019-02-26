@@ -76,24 +76,25 @@ goto GetProcessor
 :GetProcessor
 echo 获取操作系统位数:
 if "%PROCESSOR_ARCHITECTURE%"=="x86" ( 
-set OsProcessor="x86"
+    set OsProcessor="x86"
 ) 
 if "%PROCESSOR_ARCHITECTURE%"=="AMD64" ( 
-set OsProcessor="x64"
+    set OsProcessor="x64"
 ) else (
-set OsProcessor="UnknownProcessor"
+    set OsProcessor="UnknownProcessor"
 )
 
+rem 输出操作系统版本和位数
 echo %OsVersion% %OsProcessor%
- 
+
+rem 获取管理员权限
+%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
+
 echo.
 echo 1.正在安装jdk，请不要执行其他操作
 echo.
 echo 请稍等，这大约需要几分钟
 echo.
-
-rem 获取管理员权限
-%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
 
 rem 安装JDK1.8
 start /WAIT jdk-8u181-windows-x64.exe /qn INSTALLDIR=E:\JAVA_HOME\jdk1.8
