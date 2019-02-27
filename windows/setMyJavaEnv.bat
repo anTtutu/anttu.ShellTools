@@ -134,7 +134,7 @@ echo.
 call java -version
 echo.
 
-If %Errorlevel% == 0 (
+if %Errorlevel% == 0 (
     echo JDK测试安装成功
     echo.
 ) else (
@@ -160,7 +160,7 @@ echo.
 call mvn -version
 echo.
 
-If %Errorlevel% == 0 (
+if %Errorlevel% == 0 (
     echo maven测试安装成功
     echo.
 ) else (
@@ -186,7 +186,7 @@ echo.
 call version
 echo.
 
-If %Errorlevel% == 0 (
+if %Errorlevel% == 0 (
     echo tomcat测试安装成功
     echo.
 ) else (
@@ -212,7 +212,7 @@ echo.
 call scomp -version
 echo.
 
-If %Errorlevel% == 0 (
+if %Errorlevel% == 0 (
     echo xmlbeans测试安装成功
     echo.
 ) else (
@@ -238,7 +238,7 @@ echo.
 call axis2 -version
 echo.
 
-If %Errorlevel% == 0 (
+if %Errorlevel% == 0 (
     echo axis2测试安装成功
     echo.
 ) else (
@@ -264,7 +264,7 @@ echo.
 call ant -version
 echo.
 
-If %Errorlevel% == 0 (
+if %Errorlevel% == 0 (
     echo ant测试安装成功
     echo.
 ) else (
