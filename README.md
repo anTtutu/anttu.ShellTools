@@ -12,6 +12,12 @@ auto_deploy.sh 部署war包脚本
 # javaMemoryDumpAnalyzer
 memory.sh IBM java heapdump分析工具
 
+# linux
+exp.sh 远程ssh批量管理脚本
+
+# mysql
+collectSQL.sh 搜集解析后的mysql binlog日志中的某张表的语句信息
+
 # nginx
 lockip.sh 抓取cc攻击接口或者高频访问的ip
 log_backup.sh 日志备份工具，每天备份一次
