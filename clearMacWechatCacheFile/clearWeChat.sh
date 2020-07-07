@@ -85,7 +85,7 @@ function clear()
 # 二次确认
 function checkYes()
 {
-		echo -n "are you sure to delate wechat cache file, please input y or Y :"
+		echo -n "are you sure to delete wechat cache file, please input y or Y :"
 		read input
 		
 		if [ ${input} == "y" ] || [ ${input} == "Y" ]; then
