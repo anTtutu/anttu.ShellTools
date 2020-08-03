@@ -15,6 +15,10 @@
 # deploy
 > auto_deploy.sh 部署war包脚本
 
+# itunes  
+> itunesDeleteInstall.scpt 卸载系统自带的itunes并安装12.6.5版本itunes，需要提前下载itunes12.6.5  
+> modifyiTunesVersion.scpt 修改itunes版本号12.6.5，因为有逻辑检测12.6.5无法在高版本macos运行  
+
 # javaMemoryDumpAnalyzer
 > memory.sh IBM java heapdump分析工具
 
