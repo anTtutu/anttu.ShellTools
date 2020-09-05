@@ -54,13 +54,17 @@ function clear()
         cd ${i}
         if [ -d ${USER_PIC_DIR} ]; then
             echo "1 - delete ${USER_PIC_DIR} begin"
-            find ./${USER_PIC_DIR} -name "*" | xargs rm -r '*'
+            
+            find ./${USER_PIC_DIR} -type f -name "*" | xargs rm -r '*'
+            
             echo "1 - delete ${USER_PIC_DIR} end"
         fi
 
         if [ -d ${USER_MESSAGE_DIR}/${MESSAGE_FILE_DIR} ]; then
             echo "2 - delete ${USER_MESSAGE_DIR}/${MESSAGE_FILE_DIR} begin"
-            find ./${USER_MESSAGE_DIR}/${MESSAGE_FILE_DIR} -name "*" | xargs rm -r '*'
+
+            find ./${USER_MESSAGE_DIR}/${MESSAGE_FILE_DIR} -type f -name "*" | xargs rm -r '*'
+            
             echo "2 - delete ${USER_MESSAGE_DIR}/${MESSAGE_FILE_DIR} end"
         fi
 
@@ -71,7 +75,7 @@ function clear()
             do
                 echo "${USER_CACHE_DIR}/${j}"
 
-                find ./${USER_CACHE_DIR}/${j} -name "*" | xargs rm -r '*'
+                find ./${USER_CACHE_DIR}/${j} -type f -name "*" | xargs rm -r '*'
             done
 
             echo "3 - delete ${USER_CACHE_DIR} end"
