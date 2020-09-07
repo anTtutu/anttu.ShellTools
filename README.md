@@ -10,7 +10,9 @@
 > clearMemory.sh 清理linux服务器cache内存不释放
 
 # clearWechatMacCacheFile
-> clearWechat.sh 清理mac版本微信的缓存文件，Avatar-好友图像缓存 Stickers-表情包附件缓存 Message-Downlad File 群视频、文件、附件等缓存
+> clearWechat.sh 清理mac版本微信的缓存文件，Avatar-好友图像缓存 Stickers-表情包附件缓存 Message-Downlad File 群视频、文件、附件等缓存  
+> clearQQ.sh 清理mac版本QQ的缓存文件，Avator-图像缓存 Images-图片、表情包等 Videos-视频等  
+> clearWXWork.sh 清理mac版本企业微信的缓存文件，Avator-图像缓存 File-附件缓存文件 Image-图片等缓存 Video-视频等缓存 Voice-语音缓存 ScreenCapture-截图，自己或者别人发的截图等 Log-日志
 
 # deploy
 > auto_deploy.sh 部署war包脚本
