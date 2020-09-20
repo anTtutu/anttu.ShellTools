@@ -12,15 +12,15 @@
 # clearWechatMacCacheFile
 脚本名称|说明
 |-|-|
-clearWechat.sh|清理mac版本微信的缓存文件，Avatar-好友图像缓存 Stickers-表情包附件缓存 Message-Downlad File 群视频、文件、附件等缓存  
-clearQQ.sh|清理mac版本QQ的缓存文件，Avator-图像缓存 Images-图片、表情包等 Videos-视频等  
-clearWXWork.sh|清理mac版本企业微信的缓存文件，Avator-图像缓存 File-附件缓存文件 Image-图片等缓存 Video-视频等缓存 Voice-语音缓存 ScreenCapture-截图，自己或者别人发的截图等 Log-日志
+clearWechat.sh|清理mac版本微信的缓存文件<br>Avatar-好友图像缓存<br>Stickers-表情包附件缓存<br>Message-Downlad File 群视频、文件、附件等缓存  
+clearQQ.sh|清理mac版本QQ的缓存文件<br>Avator-图像缓存<br>Images-图片、表情包等<br>Videos-视频等  
+clearWXWork.sh|清理mac版本企业微信的缓存文件<br>Avator-图像缓存<br>File-附件缓存文件<br>Image-图片等缓存<br>Video-视频等缓存<br>Voice-语音缓存<br>ScreenCapture-截图，自己或者别人发的截图等<br>Log-日志
 
 # deploy
 脚本名称|说明
 |-|-|
 auto_deploy.sh|部署war包脚本
-deployGitpages.sh|部署gitpages静态blog的脚本
+deployGitPages.sh|部署gitpages静态blog的脚本，github.io,gitee.io,coding.me
 
 
 # itunes  
