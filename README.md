@@ -42,6 +42,7 @@ memory.sh|IBM java heapdump分析工具
 脚本名称|说明
 |-|-|
 exp.sh|远程ssh批量管理脚本
+curl_post.sh|linux下测试post请求，入参和出参都是json结构，需要安装下yum install jq,input_post.json是入参json样例
 
 # mysql
 脚本名称|说明
