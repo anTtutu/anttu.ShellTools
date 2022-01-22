@@ -20,16 +20,26 @@ clearWechat.sh|清理mac版本微信的缓存文件<br>Avatar-好友图像缓存
 clearQQ.sh|清理mac版本QQ的缓存文件<br>Avator-图像缓存<br>Images-图片、表情包等<br>Videos-视频等  
 clearWXWork.sh|清理mac版本企业微信的缓存文件<br>Avator-图像缓存<br>File-附件缓存文件<br>Image-图片等缓存<br>Video-视频等缓存<br>Voice-语音缓存<br>ScreenCapture-截图，自己或者别人发的截图等<br>Log-日志
 
+# cloud_daily_check
+脚本名称|说明
+|-|-|
+dailyCheck.sh|搜集网络上的阿里云巡检脚本，比较细致，有参考价值
+
 # deploy
 脚本名称|说明
 |-|-|
 auto_deploy.sh|部署war包脚本
 deployGitPages.sh|部署gitpages静态blog的脚本，github.io,gitee.io,coding.me
 
+# go
+脚本名称|说明
+|-|-|
+golanginstall.sh|安装golang.org/x包的脚本
 
 # itunes  
 脚本名称|说明
 |-|-|
+deleteiTunes.sh|手工删除iTunes的脚本
 itunesDeleteInstall.scpt|卸载系统自带的itunes并安装12.6.5版本itunes，需要提前下载itunes12.6.5  
 modifyiTunesVersion.scpt|修改itunes版本号12.6.5，因为有逻辑检测12.6.5无法在高版本macos运行  
 
@@ -47,6 +57,7 @@ curl_post.sh|linux下测试post请求，入参和出参都是json结构，需要
 # mysql
 脚本名称|说明
 |-|-|
+backupDesignerPlatformMysql.sh|定期备份和手工恢复指定表的脚本
 collectSQL.sh|搜集解析后的mysql binlog日志中的某张表的语句信息
 
 # nginx
@@ -54,6 +65,9 @@ collectSQL.sh|搜集解析后的mysql binlog日志中的某张表的语句信息
 |-|-|
 lockip.sh|抓取cc攻击接口或者高频访问的ip  
 log_backup.sh|日志备份工具，每天备份一次
+log_clean.sh|每天生成一分nginx日志，类似滚动日志
+monitor.sh|根据nginx access日志提取cc攻击高频次访问接口ip
+nginx.sh|nginx启、停、重启操作的脚本
 
 # windows
 脚本名称|说明
