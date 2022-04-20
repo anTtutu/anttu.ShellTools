@@ -38,7 +38,7 @@ BACKUP_DIR="/data/designer_platform_backup"
 
 # 备份文件存放的次数
 BACKUP_DAYS=28
-OLD_BACKUP_DATE=$(date -d "${BACKUP_DAYS} days ago" +%Y%m%d | grep -v mail)
+OLD_BACKUP_DATE=$(date -d "${BACKUP_DAYS} days ago" +%Y-%m-%d | grep -v mail)
 
 # 年月日时间戳
 BACKUP_DATE=$(date +%Y-%m-%d | grep -v mail)
@@ -95,10 +95,8 @@ function clean()
     fileName="${table}${BACKUP_FILE_SUFFIX}"
 
     log "clean" "begin to clean old backup..."
-    if [ -f "${filePath}/${fileName}" ]; then
-        rm -rf "${filePath}"
-        log "clean" "clean old backup, old backup file[${filePath}/${fileName}]"
-    fi
+    cd ${BACKUP_DIR}
+    find ./ -type d -mtime +28 | grep "-" | awk -F"./" '{print $2}' -exec rm -r {} \;
     log "clean" "end to clean old backup"
 }
 
