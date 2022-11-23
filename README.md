@@ -25,6 +25,38 @@ clearWXWork.sh|清理mac版本企业微信的缓存文件<br>Avator-图像缓存
 |-|-|
 dailyCheck.sh|搜集网络上的阿里云巡检脚本，比较细致，有参考价值
 
+# docker
+脚本名称|说明
+-|-
+elasticsearch|es配置
+etcd|etcd配置
+kafka|kafka配置
+minio|minio配置
+mongodb|mongodb配置
+mysql|mysql配置
+nginx|nginx配置
+redis|redis配置
+zookeeper|zk配置
+shell|docker容器脚本
+├── demo.sh|demo脚本|
+├── docker-es-8.0.0-run.sh|es启动脚本
+├── docker-etcd-latest-run.sh|etcd启动脚本
+├── docker-getting-started-laster-run.sh|docker官方示例脚本
+├── docker-go-demo-v1.0-run.sh|docker官方go demo脚本
+├── docker-inspect-port.sh|docker容器信息查看
+├── docker-java-demo-v1.0-run.sh|docker官方java demo脚本
+├── docker-minio-latest-run.sh|minio启动脚本
+├── docker-mongo-6.0-run.sh|mongo启动脚本
+├── docker-mysql-8.0-run.sh|mysql启动脚本
+├── docker-nginx-1.22.0-run.sh|nginx启动脚本
+├── docker-nodejs-demo-v1.0-run.sh|docker官方nodejs demo脚本
+├── docker-nsenter-run.sh|docker mac的虚拟容器脚本
+├── docker-python-demo-v1.0-run.sh|docker官方python demo脚本
+├── docker-redis-7.0-run.sh|redis启动脚本
+├── docker-show-repo-tag.sh|查看镜像版本脚本
+├── docker-start-container.sh|docker启动某容器脚本
+└── docker-stop-container.sh|docker停止某容器脚本
+
 # deploy
 脚本名称|说明
 |-|-|
