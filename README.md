@@ -85,6 +85,7 @@ memory.sh|IBM java heapdump分析工具
 |-|-|
 exp.sh|远程ssh批量管理脚本
 curl_post.sh|linux下测试post请求，入参和出参都是json结构，需要安装下yum install jq,input_post.json是入参json样例
+monitor.sh|linux下的资源监控脚本，并通过接口发送，供内部使用
 
 # mysql
 脚本名称|说明
@@ -105,3 +106,8 @@ nginx.sh|nginx启、停、重启操作的脚本
 脚本名称|说明
 |-|-|
 setMyJavaEnv.bat|设置新电脑java开发需要的一些环境变量-个人的
+
+# kafka
+脚本名称|说明
+|-|-|
+kafka_dev_env_delete_log_restart.sh|开发环境，因kafka数据量较大每周清理下
