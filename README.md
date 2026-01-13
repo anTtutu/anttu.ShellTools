@@ -80,6 +80,11 @@ modifyiTunesVersion.scpt|修改itunes版本号12.6.5，因为有逻辑检测12.6
 |-|-|
 memory.sh|IBM java heapdump分析工具
 
+# kafka
+脚本名称|说明
+|-|-|
+kafka_dev_env_delete_log_restart.sh|开发环境，因kafka数据量较大每周清理下
+
 # linux
 脚本名称|说明
 |-|-|
@@ -106,8 +111,3 @@ nginx.sh|nginx启、停、重启操作的脚本
 脚本名称|说明
 |-|-|
 setMyJavaEnv.bat|设置新电脑java开发需要的一些环境变量-个人的
-
-# kafka
-脚本名称|说明
-|-|-|
-kafka_dev_env_delete_log_restart.sh|开发环境，因kafka数据量较大每周清理下
