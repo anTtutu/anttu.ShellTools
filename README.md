@@ -111,3 +111,8 @@ nginx.sh|nginx启、停、重启操作的脚本
 脚本名称|说明
 |-|-|
 setMyJavaEnv.bat|设置新电脑java开发需要的一些环境变量-个人的
+
+# mac
+脚本名称|说明
+|-|-|
+clean_idea_log.sh|个人mac下，idea开了后一直会无限输出threadDumps等缓存文件，一个个的都还比较占空间，10G 20G都占过，同事的m2 mac反馈没这个问题，只好写个脚本定期清理
