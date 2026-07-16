@@ -8,7 +8,7 @@
 #   *.json              - JSON 日志/指标文件
 #   *.csv               - CSV 数据文件
 #   threadDumps*        - 线程转储目录
-#   jcef_chromium*      - Chromium 缓存目录
+#   jcef_chromium*.log  - Chromium 缓存目录
 #   idea.log.[0-9]*     - 归档日志文件 (如 idea.log.1, idea.log.2.gz)
 #   idea.[0-9]*.log     - 归档日志 (idea.1.log, idea.2.log)
 #   idea.[0-9]*.log.*   - 压缩归档日志 (idea.1.log.gz)
@@ -34,7 +34,7 @@ PATTERNS=(
     "*.json"
     "*.csv"
     "threadDumps*"
-    "jcef_chromium*"
+    "jcef_chromium*.log"	# jcef_chromium_98288.log
     "idea.log.[0-9]*"           # idea.log.1, idea.log.2
     "idea.log.*.gz"             # idea.log.1.gz
     "idea.log.*.zip"            # idea.log.1.zip
